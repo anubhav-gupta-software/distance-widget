@@ -1,0 +1,10 @@
+{
+  "rules": {
+    "distanceWidget": {
+      "v1": {
+        ".read": true,
+        ".write": true
+      }
+    }
+  }
+}

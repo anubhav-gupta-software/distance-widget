@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02898705D5A088F3FC7EB4D4 /* DistanceMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E4DE58E23B270DA88CDB36 /* DistanceMark.swift */; };
+		05035E1CA56E7C840C541B73 /* DistanceMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E4DE58E23B270DA88CDB36 /* DistanceMark.swift */; };
+		133E93B25EF17BAFE97D48F3 /* PrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8481833FA05B0B2C5A04CD5 /* PrivacyView.swift */; };
+		161168A11B11ECE4F6AB4A49 /* SyncClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8B956F4E425F8AA5A36698 /* SyncClient.swift */; };
+		163F1711AB18411DF5ECD2A5 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9B317F875069F082AA5A62 /* LocationService.swift */; };
+		209368942327291F2872C9BD /* DistanceWidgetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D51230DBC8122561381889 /* DistanceWidgetApp.swift */; };
+		24380E595A6E326132EBF516 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 7D9A65B983B6E7A3C7B9A95B /* PrivacyInfo.xcprivacy */; };
+		2EFE3556D6BDA75B143492A6 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A04456ADC67625C0FA28AD /* RootView.swift */; };
+		56CA39DB38F4FB2768A3D668 /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB79FD3D9A60F7D5F0141EB8 /* Palette.swift */; };
+		5907DF5445302E27DF693EE8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7892FFCEC62A1F70E5E92D0 /* HomeView.swift */; };
+		5F3FC06E0205274CF83EA63A /* DistanceWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79D6BC90D366EBA9326AC42 /* DistanceWidgets.swift */; };
+		6118FC77F66E63C5B0F4E6FD /* WidgetViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80945983F4E1867A2A1D66E /* WidgetViews.swift */; };
+		65AF33E1EC53CCCD2E21CFBC /* SyncClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8B956F4E425F8AA5A36698 /* SyncClient.swift */; };
+		65F0C5AC11FE7F00DE57F2B6 /* SharedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3FD76A4B1456F4AE98CE46 /* SharedStore.swift */; };
+		7AA8EB329A2FFE6C6501FF0A /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 9E34E482149F082B384B3622 /* PrivacyInfo.xcprivacy */; };
+		8415B977B85BDFAD2A7C910F /* DistanceWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0399D47995F31EB4A12388BD /* DistanceWidgetExtension.appex */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8D328429ED50882FF3C27187 /* PairingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE835F3263F9BCBD0E52427 /* PairingView.swift */; };
+		9CAC9F80B0351E863CAD25FD /* SyncSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9372E655D136135ABBB3C50 /* SyncSettings.swift */; };
+		ADCE88D4C1264B00BF5FBA76 /* DistanceCore in Frameworks */ = {isa = PBXBuildFile; productRef = 96ABE1B168159CCFB233BBA2 /* DistanceCore */; };
+		B3449F777DB13FEE285EDF54 /* AppIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABD81BD290B2E4D40A480E1 /* AppIdentity.swift */; };
+		B7A6134A5B3FA372D7E0EE81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19FECEBBB926C4ECBC2E0657 /* Assets.xcassets */; };
+		C9FAB2975C0C0E0678DB1092 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA384A88145C5961C97DD4F /* OnboardingView.swift */; };
+		CFF31EEE6824EAB027986965 /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB79FD3D9A60F7D5F0141EB8 /* Palette.swift */; };
+		D0D6CACB75AED988F86E57CF /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4F767016D2F90D56A5A8ED /* Components.swift */; };
+		D128C01E6A5B9B7343A9DE12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC358A1B8CDFB88FCBB1B61 /* Assets.xcassets */; };
+		D439E52AA3D141542243635E /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF83A40679052A85EEC8269 /* AppModel.swift */; };
+		D67EC490311423B7C5867A61 /* SyncSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9372E655D136135ABBB3C50 /* SyncSettings.swift */; };
+		E4CD8DAEC70428A3DD43FF18 /* AppIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABD81BD290B2E4D40A480E1 /* AppIdentity.swift */; };
+		E6FE7EA30EF02D5350FC2B94 /* DistanceCore in Frameworks */ = {isa = PBXBuildFile; productRef = 0E343104873D134049E7E723 /* DistanceCore */; };
+		E72B43944B823A36DDF161F0 /* SharedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3FD76A4B1456F4AE98CE46 /* SharedStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9C5E878387F62EBF37E7A54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31A74A5D953890A5C93D9779 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A33A0E6E7B1289826422C287;
+			remoteInfo = DistanceWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C3DB09705B51B4C984E8793F /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8415B977B85BDFAD2A7C910F /* DistanceWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0399D47995F31EB4A12388BD /* DistanceWidgetExtension.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = DistanceWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A3FD76A4B1456F4AE98CE46 /* SharedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedStore.swift; sourceTree = "<group>"; };
+		0CE835F3263F9BCBD0E52427 /* PairingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairingView.swift; sourceTree = "<group>"; };
+		19FECEBBB926C4ECBC2E0657 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4ABD81BD290B2E4D40A480E1 /* AppIdentity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIdentity.swift; sourceTree = "<group>"; };
+		4C8B956F4E425F8AA5A36698 /* SyncClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncClient.swift; sourceTree = "<group>"; };
+		61A04456ADC67625C0FA28AD /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		6EAC41E18E1C8D44E5AF438A /* DistanceWidget.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = DistanceWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D9A65B983B6E7A3C7B9A95B /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		7FA384A88145C5961C97DD4F /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		8D42AFB18F16C4BA697EC29A /* DistanceCore */ = {isa = PBXFileReference; lastKnownFileType = folder; name = DistanceCore; path = DistanceCore; sourceTree = SOURCE_ROOT; };
+		99DFC10BD4B60B6E2521FF91 /* Shared.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Shared.xcconfig; sourceTree = "<group>"; };
+		9E34E482149F082B384B3622 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		AB4F767016D2F90D56A5A8ED /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		AB79FD3D9A60F7D5F0141EB8 /* Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
+		B6D51230DBC8122561381889 /* DistanceWidgetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceWidgetApp.swift; sourceTree = "<group>"; };
+		B80945983F4E1867A2A1D66E /* WidgetViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetViews.swift; sourceTree = "<group>"; };
+		BDF83A40679052A85EEC8269 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		C79D6BC90D366EBA9326AC42 /* DistanceWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceWidgets.swift; sourceTree = "<group>"; };
+		C8481833FA05B0B2C5A04CD5 /* PrivacyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyView.swift; sourceTree = "<group>"; };
+		C9372E655D136135ABBB3C50 /* SyncSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncSettings.swift; sourceTree = "<group>"; };
+		CEC358A1B8CDFB88FCBB1B61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0E4DE58E23B270DA88CDB36 /* DistanceMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceMark.swift; sourceTree = "<group>"; };
+		D7892FFCEC62A1F70E5E92D0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		ED9B317F875069F082AA5A62 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		386A6B3661A49D5F776C3633 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADCE88D4C1264B00BF5FBA76 /* DistanceCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C58BE61DAAE9DF792A20D0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6FE7EA30EF02D5350FC2B94 /* DistanceCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18CCEDE3D5033DD2376D6454 /* DistanceWidget */ = {
+			isa = PBXGroup;
+			children = (
+				BDF83A40679052A85EEC8269 /* AppModel.swift */,
+				19FECEBBB926C4ECBC2E0657 /* Assets.xcassets */,
+				AB4F767016D2F90D56A5A8ED /* Components.swift */,
+				B6D51230DBC8122561381889 /* DistanceWidgetApp.swift */,
+				D7892FFCEC62A1F70E5E92D0 /* HomeView.swift */,
+				ED9B317F875069F082AA5A62 /* LocationService.swift */,
+				7FA384A88145C5961C97DD4F /* OnboardingView.swift */,
+				0CE835F3263F9BCBD0E52427 /* PairingView.swift */,
+				9E34E482149F082B384B3622 /* PrivacyInfo.xcprivacy */,
+				C8481833FA05B0B2C5A04CD5 /* PrivacyView.swift */,
+				61A04456ADC67625C0FA28AD /* RootView.swift */,
+			);
+			path = DistanceWidget;
+			sourceTree = "<group>";
+		};
+		1CCF074AF426DD0FB2990FCF = {
+			isa = PBXGroup;
+			children = (
+				32BD5F8F5B0A603D5A9216BD /* Config */,
+				18CCEDE3D5033DD2376D6454 /* DistanceWidget */,
+				AE14D609870FC22AE49C32FB /* DistanceWidgetExtension */,
+				3F35ECEEA826FB185875D70D /* Packages */,
+				E5B5E93245E0F26740305E7F /* Shared */,
+				FBB2DCA6F61C3E3AAF003615 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32BD5F8F5B0A603D5A9216BD /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				99DFC10BD4B60B6E2521FF91 /* Shared.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		3F35ECEEA826FB185875D70D /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				8D42AFB18F16C4BA697EC29A /* DistanceCore */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		AE14D609870FC22AE49C32FB /* DistanceWidgetExtension */ = {
+			isa = PBXGroup;
+			children = (
+				CEC358A1B8CDFB88FCBB1B61 /* Assets.xcassets */,
+				C79D6BC90D366EBA9326AC42 /* DistanceWidgets.swift */,
+				7D9A65B983B6E7A3C7B9A95B /* PrivacyInfo.xcprivacy */,
+				B80945983F4E1867A2A1D66E /* WidgetViews.swift */,
+			);
+			path = DistanceWidgetExtension;
+			sourceTree = "<group>";
+		};
+		E5B5E93245E0F26740305E7F /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				4ABD81BD290B2E4D40A480E1 /* AppIdentity.swift */,
+				D0E4DE58E23B270DA88CDB36 /* DistanceMark.swift */,
+				AB79FD3D9A60F7D5F0141EB8 /* Palette.swift */,
+				0A3FD76A4B1456F4AE98CE46 /* SharedStore.swift */,
+				4C8B956F4E425F8AA5A36698 /* SyncClient.swift */,
+				C9372E655D136135ABBB3C50 /* SyncSettings.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		FBB2DCA6F61C3E3AAF003615 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EAC41E18E1C8D44E5AF438A /* DistanceWidget.app */,
+				0399D47995F31EB4A12388BD /* DistanceWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71B35617CB79234FC59D47BB /* DistanceWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B04ACD9C4D1307FF2F33B3C /* Build configuration list for PBXNativeTarget "DistanceWidget" */;
+			buildPhases = (
+				558C336A347B8B190A668BE3 /* Sources */,
+				7AADCC1AF8D8F5D9D515EC40 /* Resources */,
+				386A6B3661A49D5F776C3633 /* Frameworks */,
+				C3DB09705B51B4C984E8793F /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD32FA5AB0E17E417E63706E /* PBXTargetDependency */,
+			);
+			name = DistanceWidget;
+			packageProductDependencies = (
+				96ABE1B168159CCFB233BBA2 /* DistanceCore */,
+			);
+			productName = DistanceWidget;
+			productReference = 6EAC41E18E1C8D44E5AF438A /* DistanceWidget.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A33A0E6E7B1289826422C287 /* DistanceWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 013BCB0ED02A78497E59DEF5 /* Build configuration list for PBXNativeTarget "DistanceWidgetExtension" */;
+			buildPhases = (
+				1D1681A707EAB2025966267A /* Sources */,
+				847EF45216819C7B741E99DB /* Resources */,
+				8C58BE61DAAE9DF792A20D0B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DistanceWidgetExtension;
+			packageProductDependencies = (
+				0E343104873D134049E7E723 /* DistanceCore */,
+			);
+			productName = DistanceWidgetExtension;
+			productReference = 0399D47995F31EB4A12388BD /* DistanceWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31A74A5D953890A5C93D9779 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					71B35617CB79234FC59D47BB = {
+						ProvisioningStyle = Automatic;
+					};
+					A33A0E6E7B1289826422C287 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FF952930E1C66D83952994FE /* Build configuration list for PBXProject "DistanceWidget" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 1CCF074AF426DD0FB2990FCF;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				CE4703FA67CA64CF5827C8CE /* XCLocalSwiftPackageReference "DistanceCore" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FBB2DCA6F61C3E3AAF003615 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71B35617CB79234FC59D47BB /* DistanceWidget */,
+				A33A0E6E7B1289826422C287 /* DistanceWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AADCC1AF8D8F5D9D515EC40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7A6134A5B3FA372D7E0EE81 /* Assets.xcassets in Resources */,
+				7AA8EB329A2FFE6C6501FF0A /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847EF45216819C7B741E99DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D128C01E6A5B9B7343A9DE12 /* Assets.xcassets in Resources */,
+				24380E595A6E326132EBF516 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D1681A707EAB2025966267A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4CD8DAEC70428A3DD43FF18 /* AppIdentity.swift in Sources */,
+				02898705D5A088F3FC7EB4D4 /* DistanceMark.swift in Sources */,
+				5F3FC06E0205274CF83EA63A /* DistanceWidgets.swift in Sources */,
+				56CA39DB38F4FB2768A3D668 /* Palette.swift in Sources */,
+				65F0C5AC11FE7F00DE57F2B6 /* SharedStore.swift in Sources */,
+				161168A11B11ECE4F6AB4A49 /* SyncClient.swift in Sources */,
+				D67EC490311423B7C5867A61 /* SyncSettings.swift in Sources */,
+				6118FC77F66E63C5B0F4E6FD /* WidgetViews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		558C336A347B8B190A668BE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3449F777DB13FEE285EDF54 /* AppIdentity.swift in Sources */,
+				D439E52AA3D141542243635E /* AppModel.swift in Sources */,
+				D0D6CACB75AED988F86E57CF /* Components.swift in Sources */,
+				05035E1CA56E7C840C541B73 /* DistanceMark.swift in Sources */,
+				209368942327291F2872C9BD /* DistanceWidgetApp.swift in Sources */,
+				5907DF5445302E27DF693EE8 /* HomeView.swift in Sources */,
+				163F1711AB18411DF5ECD2A5 /* LocationService.swift in Sources */,
+				C9FAB2975C0C0E0678DB1092 /* OnboardingView.swift in Sources */,
+				8D328429ED50882FF3C27187 /* PairingView.swift in Sources */,
+				CFF31EEE6824EAB027986965 /* Palette.swift in Sources */,
+				133E93B25EF17BAFE97D48F3 /* PrivacyView.swift in Sources */,
+				2EFE3556D6BDA75B143492A6 /* RootView.swift in Sources */,
+				E72B43944B823A36DDF161F0 /* SharedStore.swift in Sources */,
+				65AF33E1EC53CCCD2E21CFBC /* SyncClient.swift in Sources */,
+				9CAC9F80B0351E863CAD25FD /* SyncSettings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD32FA5AB0E17E417E63706E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A33A0E6E7B1289826422C287 /* DistanceWidgetExtension */;
+			targetProxy = B9C5E878387F62EBF37E7A54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1FE4DDC488F0D5D8FD58E9C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99DFC10BD4B60B6E2521FF91 /* Shared.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		20D864B2A12F15B6E85A2DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DistanceWidget/DistanceWidget.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DistanceWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID)";
+				PRODUCT_NAME = DistanceWidget;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		308AE9DBD8F7F734D568384A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DistanceWidget/DistanceWidget.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DistanceWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID)";
+				PRODUCT_NAME = DistanceWidget;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		54DD888814BFB967C3197AF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99DFC10BD4B60B6E2521FF91 /* Shared.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9D65B1CE699573897DC28100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DistanceWidgetExtension/DistanceWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DistanceWidgetExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID).widget";
+				PRODUCT_NAME = DistanceWidgetExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FC7D38D914F78EAC985FB7F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DistanceWidgetExtension/DistanceWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DistanceWidgetExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID).widget";
+				PRODUCT_NAME = DistanceWidgetExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		013BCB0ED02A78497E59DEF5 /* Build configuration list for PBXNativeTarget "DistanceWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC7D38D914F78EAC985FB7F6 /* Debug */,
+				9D65B1CE699573897DC28100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B04ACD9C4D1307FF2F33B3C /* Build configuration list for PBXNativeTarget "DistanceWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				308AE9DBD8F7F734D568384A /* Debug */,
+				20D864B2A12F15B6E85A2DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF952930E1C66D83952994FE /* Build configuration list for PBXProject "DistanceWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54DD888814BFB967C3197AF5 /* Debug */,
+				1FE4DDC488F0D5D8FD58E9C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		CE4703FA67CA64CF5827C8CE /* XCLocalSwiftPackageReference "DistanceCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = DistanceCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0E343104873D134049E7E723 /* DistanceCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DistanceCore;
+		};
+		96ABE1B168159CCFB233BBA2 /* DistanceCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DistanceCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 31A74A5D953890A5C93D9779 /* Project object */;
+}
