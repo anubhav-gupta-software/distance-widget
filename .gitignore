@@ -1,0 +1,15 @@
+.DS_Store
+*.xcuserstate
+xcuserdata/
+DerivedData/
+build/
+.swiftpm/
+.build/
+.idea/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+.swift-version
+Package.resolved

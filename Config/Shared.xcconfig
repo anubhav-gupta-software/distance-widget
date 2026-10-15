@@ -1,0 +1,9 @@
+// Change both IDs before you build. A free Apple ID can register only
+// bundle IDs and App Groups that nobody else has claimed.
+//
+// APP_BUNDLE_ID becomes the app's bundle identifier.
+// The widget uses APP_BUNDLE_ID with a ".widget" suffix.
+// APP_GROUP_ID must be the same on the app and the widget.
+
+APP_BUNDLE_ID = com.yourname.distancewidget
+APP_GROUP_ID = group.com.yourname.distancewidget
